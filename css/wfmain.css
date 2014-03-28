@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+body{background-color:#999;}
+
+.example-orbit img {
+  width: 100%;
+  margin:0em !important ;
+}
+
+header.large-12{
+	padding:0em !important;}
+	
+.orbit-bullets-container{position: absolute;
+    top: -.5em;
+    right: 40%;
+	left:40%;
+    height:1em;
+    width: 20%;
+    z-index: 10;
+	}
+	
+.orbit-caption{position: absolute;
+        bottom:0;
+        background-color: rgba(51, 51, 51, 0.8);
+        color:white;
+        width: 100%;
+		padding-top:-1em !important;
+        font-size: 87.5% !important;
+		height:1em !important;
+		padding:.5em 1em 2em 1em !important;
+}
+.no-margin{padding:0em !important;}
+
+.normText{font-family: "Comic Sans MS", cursive;
+		font-size: 1em;
+		color:#FFF;
+		padding:1em;
+		text-indent:2em;
+		}
+		
+img.right{float:right;
+	margin:1em;
+	-moz-box-shadow:    3px 3px 5px 6px #333333;
+  	-webkit-box-shadow: 3px 3px 5px 6px #333333;
+  	box-shadow:         3px 3px 5px 6px #333333;
+	margin-bottom:1em;
+	}
+	
+.spotlight{float:right;
+	padding-top:1em;
+	padding-bottom:1em;
+	padding-right:1em;
+	padding-left:1em;
+	width:50%;
+	-webkit-box-shadow: 3px 3px 5px 6px #333333;
+}
+
+.tab-bar{background-color:#999;
+height:100% !important;}
+
+.nav-button .button{position: absolute;
+    top: -.5%;
+    left: -.5%;
+    font-size: 12px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    z-index: 10;
+	}
+	
+	
+.orbit-container .orbit-slide-number {
+    position:absolute;
+    bottom:-8%;
+    left:92%;
+    font-size: 12px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    z-index: 10;
+	visibility:hidden;}
+	
+	
+.centered{margin-left:auto !important;
+margin-right:auto !important;
+alignment-adjust:central !important;}
+
+.button-group li{
+    margin: 0;
+    float:left !important; }
+	
+	.button-group {
+  list-style: none;
+  margin: 0;
+  left: 15% !important;
+  right:auto;
+  *zoom: 1; }
+  
+  .top-bar {
+    background: #333333;
+    *zoom: 1;
+    overflow:visible !important;}
+	
+.whiteText{color:#FFF;
+padding:1em;
+background-color:#333;}
+
+
